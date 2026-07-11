@@ -1,0 +1,4 @@
+.DS_Store
+
+# private business data — never push to GitHub
+nuhi-lead-tracker.xlsx
