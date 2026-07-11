@@ -5,3 +5,6 @@ nuhi-lead-tracker.xlsx
 
 # Local Netlify folder
 .netlify
+
+# Office temp/lock files
+~$*

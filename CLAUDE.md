@@ -72,4 +72,7 @@ When I say "new demo for <business>", do this:
   (CNAME @ and www -> nuhiwebdesign.netlify.app, proxy OFF / grey cloud)
 - Short demo URLs via _redirects file (e.g. /reza -> /demos/reza/) — add a
   line there for each new demo
+- /demos/sample-barber ("Luca Moreno") is a FICTIONAL business featured on my
+  site's Sample Work section — real prospect demos (like /reza) must NOT be
+  shown there until the owner gives permission
 - nuhi-lead-tracker.xlsx is gitignored (private prospect data)
