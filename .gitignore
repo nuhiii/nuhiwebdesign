@@ -2,3 +2,6 @@
 
 # private business data — never push to GitHub
 nuhi-lead-tracker.xlsx
+
+# Local Netlify folder
+.netlify
