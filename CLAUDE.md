@@ -56,14 +56,20 @@ When I say "new demo for <business>", do this:
   site's navy/amber palette for client demos
 - Existing quality bar: see reza demo (bottle green/brass barber site)
 
-## Existing files brought in from Claude chat
-- `nuhiwebdesign-site.html` — my site v1 (rename to index.html)
-  - TODO: replace [YOUR PHONE], [your@email.com], Calendly link
-- `reza-faizi-demo.html` — first barber demo (move to /demos/reza/index.html;
-  also the basis for /templates/barber)
+## My contact info (use in footers/disclaimers)
+- Phone: (347) 720-4574 · tel:+13477204574
+- Email: nuhiwebdesign@gmail.com
+- Calendly: https://calendly.com/nuhirath/30min
 
-## First tasks
-1. Set up the folder structure above
-2. Move/rename the two existing files into place
-3. Set up Netlify deploy (CLI) for this folder
-4. Build /templates/landscaper and /templates/junk-removal
+## Setup status (done 2026-07-11)
+- Folder structure in place; my site is index.html, first demo at /demos/reza
+- Templates built: /templates/barber, /templates/landscaper, /templates/junk-removal
+  (all use [PLACEHOLDER] tokens; landscaper & junk-removal include Netlify forms)
+- Git: pushed to github.com/nuhiii/nuhiwebdesign (main)
+- Netlify: site "nuhiwebdesign", linked to this folder; deploy with
+  `netlify deploy --prod`
+- Custom domain nuhiwebdesign.com + www added on Netlify; DNS via Cloudflare
+  (CNAME @ and www -> nuhiwebdesign.netlify.app, proxy OFF / grey cloud)
+- Short demo URLs via _redirects file (e.g. /reza -> /demos/reza/) — add a
+  line there for each new demo
+- nuhi-lead-tracker.xlsx is gitignored (private prospect data)
